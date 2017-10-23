@@ -15,7 +15,10 @@ error_reporting(E_ALL);
 // Подключение файлов истемы
 define('ROOT', dirname(__FILE__));
 require_once(ROOT.'/components/Router.php');
-var_dump(ROOT);
+//var_dump(ROOT);
+
 // Соединение с БД
 
 // Вызов Router
+$router = new Router();
+$router->run();

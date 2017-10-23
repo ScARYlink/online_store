@@ -14,6 +14,6 @@ class Router {
     }
 
     public function run() {
-
+        echo "Class Router, method run";
     }
 }
