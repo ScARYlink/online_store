@@ -82,7 +82,7 @@
       <path value="C:\xampp\htdocs" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="879" />
     <option name="y" value="275" />
     <option name="width" value="1047" />
@@ -163,15 +163,15 @@
       <option name="presentableId" value="Default" />
       <updated>1508783107282</updated>
       <workItem from="1508783109589" duration="3025000" />
-      <workItem from="1508787134744" duration="4549000" />
+      <workItem from="1508787134744" duration="5147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7574000" />
+    <option name="totallyTimeSpent" value="8172000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="879" y="275" width="1047" height="794" extended-state="0" />
+    <frame x="879" y="275" width="1047" height="794" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23302938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
