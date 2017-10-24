@@ -40,8 +40,8 @@ class Router {
                 $controllerName = ucfirst($controllerName);
 
                 $actionName = 'action'.ucfirst(array_shift($segments));
-                echo '<br>Класс: '.$controllerName;
-                echo '<br>Метод: '.$actionName;
+                //echo '<br>Класс: '.$controllerName;
+                //echo '<br>Метод: '.$actionName;
             }
         }
 
@@ -51,8 +51,11 @@ class Router {
             include_once($controllerFile);
         }
 
-        
-
-
+        //Создаем объект и вызываем метод (action)
+        $controllerObject = new $controllerName;
+        $result = $controllerObject->$actionName();
+        if ($result != NULL) {
+            break;
+        }
     }
 }
