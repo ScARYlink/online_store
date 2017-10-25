@@ -6,10 +6,10 @@
  * Time: 17:07
  */
 
-class ProductController {
+class ProductsController {
 
     public function actionList() {
-        echo 'ProductController actionList';
+        echo 'ProductsController actionList';
         return true;
     }
 }

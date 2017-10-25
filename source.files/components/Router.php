@@ -7,6 +7,7 @@
  */
 
 class Router {
+
     private $routes;
 
     public function __construct() {
@@ -42,20 +43,20 @@ class Router {
                 $actionName = 'action'.ucfirst(array_shift($segments));
                 //echo '<br>Класс: '.$controllerName;
                 //echo '<br>Метод: '.$actionName;
+
+                //Подключаем файл класса-контроллера
+                $controllerFile = ROOT.'/controllers/'.$controllerName.'.php';
+                if (file_exists($controllerFile)) {
+                    include_once($controllerFile);
+                }
+
+                //Создаем объект и вызываем метод (action)
+                $controllerObject = new $controllerName;
+                $result = $controllerObject->$actionName();
+                if ($result != NULL) {
+                    break;
+                }
             }
-        }
-
-        //Подключаем файл класса-контроллера
-        $controllerFile = ROOT.'/controllers/'.$controllerName.'.php';
-        if (file_exists($controllerFile)) {
-            include_once($controllerFile);
-        }
-
-        //Создаем объект и вызываем метод (action)
-        $controllerObject = new $controllerName;
-        $result = $controllerObject->$actionName();
-        if ($result != NULL) {
-            break;
         }
     }
 }
