@@ -7,6 +7,7 @@
  */
 
 return array(
+    'news/([0-9]+)' => 'news/view',
     'news' => 'news/index', //actionIndex in NewsController
     'products' => 'products/list', //actionList in ProductController
     'news/archive' => 'news/archive',
