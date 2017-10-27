@@ -6,6 +6,8 @@
  * Time: 17:07
  */
 
+include_once ROOT. '/models/News.php';
+
 class NewsController {
 
     public function actionIndex() {
