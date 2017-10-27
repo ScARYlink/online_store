@@ -13,8 +13,10 @@ class NewsController {
         return true;
     }
 
-    public function actionView() {
-        echo 'Просмотр одной новости';
+    public function actionView($category, $id) {
+        echo '<br>'.$category;
+        echo '<br>'.$id;
+
         return true;
     }
 }

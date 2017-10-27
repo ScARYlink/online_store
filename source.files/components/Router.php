@@ -36,13 +36,22 @@ class Router {
         foreach ($this->routes as $uriPattern => $path) {
             if (preg_match("~$uriPattern~", $uri)) {
 
-                $segments = explode('/', $path);
+                //Получаем для программы путь из того что ввел пользователь
+                $internalRoute = preg_replace("~$uriPattern~", $path, $uri);
+
+                //Определяем какой контроллер будет обрабатывать
+                $segments = explode('/', $internalRoute);
+
                 $controllerName = array_shift($segments).'Controller';
                 $controllerName = ucfirst($controllerName);
 
                 $actionName = 'action'.ucfirst(array_shift($segments));
-                //echo '<br>Класс: '.$controllerName;
-                //echo '<br>Метод: '.$actionName;
+                echo '<br>Класс(контроллер): '.$controllerName;
+                echo '<br>Метод(экшн): '.$actionName;
+                $parameters = $segments;
+                echo '<pre>';
+                print_r($parameters);
+
 
                 //Подключаем файл класса-контроллера
                 $controllerFile = ROOT.'/controllers/'.$controllerName.'.php';
@@ -52,7 +61,7 @@ class Router {
 
                 //Создаем объект и вызываем метод (action)
                 $controllerObject = new $controllerName;
-                $result = $controllerObject->$actionName();
+                $result = call_user_func_array(array($controllerObject, $actionName), $parameters);
                 if ($result != NULL) {
                     break;
                 }
