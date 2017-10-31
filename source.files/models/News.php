@@ -6,6 +6,8 @@
  * Time: 16:29
  */
 
+include_once ROOT.'/components/Db.php';
+
 class News {
 
     //возырвт одной новости по id
