@@ -18,6 +18,7 @@ require_once(ROOT.'/components/Router.php');
 //var_dump(ROOT);
 
 // Соединение с БД
+require_once(ROOT.'/components/Db.php');
 
 // Вызов Router
 $router = new Router();
