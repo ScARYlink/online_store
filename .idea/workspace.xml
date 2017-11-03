@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8904f07d-6746-4d78-af4b-b459f5dab13d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/components/Router.php" afterPath="$PROJECT_DIR$/source.files/components/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/template/css/reset.css" afterPath="$PROJECT_DIR$/source.files/template/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/template/css/style.css" afterPath="$PROJECT_DIR$/source.files/template/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/template/js/main.js" afterPath="$PROJECT_DIR$/source.files/template/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/template/js/modernizr.js" afterPath="$PROJECT_DIR$/source.files/template/js/modernizr.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/views/news/index.php" afterPath="$PROJECT_DIR$/source.files/views/news/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source.files/views/news/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Router.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source.files/components/Router.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="87" column="37" lean-forward="false" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -82,9 +66,9 @@
         <option value="$PROJECT_DIR$/source.files/template/css/reset.css" />
         <option value="$PROJECT_DIR$/source.files/template/js/main.js" />
         <option value="$PROJECT_DIR$/source.files/template/js/modernizr.js" />
-        <option value="$PROJECT_DIR$/source.files/views/news/index.php" />
         <option value="$PROJECT_DIR$/source.files/template/scss/style.scss" />
         <option value="$PROJECT_DIR$/source.files/components/Router.php" />
+        <option value="$PROJECT_DIR$/source.files/views/news/index.php" />
       </list>
     </option>
   </component>
@@ -230,12 +214,12 @@
       <workItem from="1509304774796" duration="6706000" />
       <workItem from="1509455307278" duration="5141000" />
       <workItem from="1509569402044" duration="2654000" />
-      <workItem from="1509702597512" duration="13696000" />
+      <workItem from="1509702597512" duration="13841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59784000" />
+    <option name="totallyTimeSpent" value="59929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="923" y="339" width="1003" height="730" extended-state="0" />
@@ -633,18 +617,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source.files/views/news/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source.files/components/Router.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source.files/views/news/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="87" column="37" lean-forward="false" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
           <folding />
         </state>
       </provider>
