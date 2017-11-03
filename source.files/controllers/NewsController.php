@@ -13,11 +13,11 @@ class NewsController {
     public function actionIndex() {
         $newsList = array();
         $newsList = News::getNewsList();
-
-        echo '<pre>';
+        require_once(ROOT.'/views/news/index.php');
+        /*echo '<pre>';
         print_r($newsList);
         echo '</pre>';
-
+        */
         return true;
     }
 
