@@ -21,10 +21,15 @@ class NewsController {
         return true;
     }
 
-    public function actionView($category, $id) {
+    public function actionView($id) {
         //echo '<br>'.$category;
         //echo '<br>'.$id;
-        echo 'Просмотр одной новости';
+        //echo 'Просмотр одной новости';
+
+        if($id) {
+            $newsItem = News::getNewsItemById($id);
+        }
+        print_r($newsItem);
         return true;
     }
 }

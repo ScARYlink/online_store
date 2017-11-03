@@ -18,7 +18,7 @@ class News {
         if ($id) {
             $db = Db::getConnection();
 
-            $result = $db->query('SELECT * from news WHERE id='.$id);
+            $result = $db->query('SELECT * from news WHERE id=' . $id);
             $result->setFetchMode(PDO::FETCH_ASSOC);
 
             $newsItem = $result->fetch();
