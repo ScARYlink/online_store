@@ -1,72 +1,101 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="../../template/css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="../../template/css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="../../template/css/style.css"> <!-- Gem style -->
 	<script src="../../template/js/modernizr.js"></script> <!-- Modernizr -->
 
 	<title>Online Store</title>
 </head>
 <body>
-	<header>
-		<div id="logo"><img src="img/cd-logo.svg" alt="Homepage"></div>
+<header>
+    <h1>Responsive Vertical Timeline</h1>
+</header>
 
-		<div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
-		<div id="cd-cart-trigger"><a class="cd-img-replace" href="#0">Cart</a></div>
-	</header>
+<section id="cd-timeline" class="cd-container">
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-picture">
+            <img src="img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline-img -->
 
-	<nav id="main-nav">
-		<ul>
-			<li><a class="current" href="#0">Home</a></li>
-			<li><a href="#0">About</a></li>
-			<li><a href="#0">Services</a></li>
-			<li><a href="#0">Gallery</a></li>
-			<li><a href="#0">Contact</a></li>
-		</ul>
-	</nav>
+        <div class="cd-timeline-content">
+            <h2>Title of section 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">Jan 14</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
 
-	<main>
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-movie">
+            <img src="img/cd-icon-movie.svg" alt="Movie">
+        </div> <!-- cd-timeline-img -->
 
-	</main>
+        <div class="cd-timeline-content">
+            <h2>Title of section 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">Jan 18</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
 
-	<div id="cd-shadow-layer"></div>
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-picture">
+            <img src="img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline-img -->
 
-	<div id="cd-cart">
-		<h2>Cart</h2>
-		<ul class="cd-cart-items">
-			<li>
-				<span class="cd-qty">1x</span> Product Name
-<div class="cd-price">$9.99</div>
-				<a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
-			</li>
+        <div class="cd-timeline-content">
+            <h2>Title of section 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">Jan 24</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
 
-			<li>
-				<span class="cd-qty">2x</span> Product Name
-<div class="cd-price">$19.98</div>
-				<a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
-			</li>
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-location">
+            <img src="img/cd-icon-location.svg" alt="Location">
+        </div> <!-- cd-timeline-img -->
 
-			<li>
-				<span class="cd-qty">1x</span> Product Name
-<div class="cd-price">$9.99</div>
-				<a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
-			</li>
-		</ul> <!-- cd-cart-items -->
+        <div class="cd-timeline-content">
+            <h2>Title of section 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">Feb 14</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
 
-		<div class="cd-cart-total">
-			<p>Total <span>$39.96</span></p>
-		</div> <!-- cd-cart-total -->
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-location">
+            <img src="img/cd-icon-location.svg" alt="Location">
+        </div> <!-- cd-timeline-img -->
 
-		<a href="#0" class="checkout-btn">Checkout</a>
+        <div class="cd-timeline-content">
+            <h2>Title of section 5</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">Feb 18</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
 
-		<p class="cd-go-to-cart"><a href="#0">Go to cart page</a></p>
-	</div> <!-- cd-cart -->
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-movie">
+            <img src="img/cd-icon-movie.svg" alt="Movie">
+        </div> <!-- cd-timeline-img -->
+
+        <div class="cd-timeline-content">
+            <h2>Final Section</h2>
+            <p>This is the content of the last section</p>
+            <span class="cd-date">Feb 26</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+</section> <!-- cd-timeline -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="../../template/js/main.js"></script> <!-- Gem jQuery -->
+<script src="../../template/js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>

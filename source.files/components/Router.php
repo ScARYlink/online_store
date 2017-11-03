@@ -46,11 +46,11 @@ class Router {
                 $controllerName = ucfirst($controllerName);
 
                 $actionName = 'action'.ucfirst(array_shift($segments));
-                echo '<br>Класс(контроллер): '.$controllerName;
-                echo '<br>Метод(экшн): '.$actionName;
+                //echo '<br>Класс(контроллер): '.$controllerName;
+               // echo '<br>Метод(экшн): '.$actionName;
                 $parameters = $segments;
-                echo '<pre>';
-                print_r($parameters);
+                //echo '<pre>';
+               // print_r($parameters);
 
 
                 //Подключаем файл класса-контроллера
