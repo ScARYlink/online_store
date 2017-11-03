@@ -6,11 +6,11 @@
 
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link rel="stylesheet" href="../../template/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="../../template/css/style.css"> <!-- Gem style -->
+	<script src="../../template/js/modernizr.js"></script> <!-- Modernizr -->
 
-	<title>Side Cart</title>
+	<title>Online Store</title>
 </head>
 <body>
 	<header>
@@ -22,52 +22,16 @@
 
 	<nav id="main-nav">
 		<ul>
-			<li><a href="#0">Home</a></li>
+			<li><a class="current" href="#0">Home</a></li>
 			<li><a href="#0">About</a></li>
-			<li><a class="current" href="#0">Services</a></li>
+			<li><a href="#0">Services</a></li>
 			<li><a href="#0">Gallery</a></li>
 			<li><a href="#0">Contact</a></li>
 		</ul>
 	</nav>
 
 	<main>
-		<ul id="cd-gallery-items" class="cd-container">
-			<li>
-				<img src="img/thumb.jpg" alt="Preview image">
-			</li>
 
-			<li>
-				<img src="img/thumb.jpg" alt="Preview image">
-			</li>
-
-			<li>
-				<img src="img/thumb.jpg" alt="Preview image">
-			</li>
-
-			<li>
-				<img src="img/thumb.jpg" alt="Preview image">
-			</li>
-
-			<li>
-				<img src="img/thumb.jpg" alt="Preview image">
-			</li>
-
-			<li>
-				<img src="img/thumb.jpg" alt="Preview image">
-			</li>
-
-			<li>
-				<img src="img/thumb.jpg" alt="Preview image">
-			</li>
-
-			<li>
-				<img src="img/thumb.jpg" alt="Preview image">
-			</li>
-
-			<li>
-				<img src="img/thumb.jpg" alt="Preview image">
-			</li>
-		</ul> <!-- cd-gallery-items -->
 	</main>
 
 	<div id="cd-shadow-layer"></div>
@@ -103,6 +67,6 @@
 		<p class="cd-go-to-cart"><a href="#0">Go to cart page</a></p>
 	</div> <!-- cd-cart -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/main.js"></script> <!-- Gem jQuery -->
+<script src="../../template/js/main.js"></script> <!-- Gem jQuery -->
 </body>
 </html>
