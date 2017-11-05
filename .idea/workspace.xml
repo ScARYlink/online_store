@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8904f07d-6746-4d78-af4b-b459f5dab13d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/template/css/style.css" afterPath="$PROJECT_DIR$/source.files/template/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/views/news/index.php" afterPath="$PROJECT_DIR$/source.files/views/news/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +16,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source.files/views/news/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="364">
+              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -105,9 +104,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="923" />
-    <option name="y" value="339" />
+    <option name="y" value="338" />
     <option name="width" value="1003" />
-    <option name="height" value="730" />
+    <option name="height" value="731" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -245,15 +244,15 @@
       <workItem from="1509569402044" duration="2654000" />
       <workItem from="1509702597512" duration="15210000" />
       <workItem from="1509787521712" duration="105000" />
-      <workItem from="1509903044750" duration="1525000" />
+      <workItem from="1509903044750" duration="3283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62928000" />
+    <option name="totallyTimeSpent" value="64686000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="923" y="339" width="1003" height="730" extended-state="0" />
+    <frame x="923" y="338" width="1003" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20360552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -605,10 +604,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source.files/views/news/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="364">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
