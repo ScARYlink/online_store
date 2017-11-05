@@ -13,7 +13,7 @@
 	<title>Online Store</title>
 </head>
 <body>
-<header>
+<header style="height: 150px;">
     <h1>Responsive Vertical Timeline</h1>
 </header>
 
