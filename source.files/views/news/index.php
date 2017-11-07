@@ -39,14 +39,14 @@
             <a href="#">234</a>
             <a href="#">345</a>
         </div>
-        <section>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </section>
+        <div>
+            <section>
+                <div>
+                    123
+                </div>
+            </section>
+        </div>
+
     </main>
 
     <footer>
