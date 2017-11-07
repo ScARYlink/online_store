@@ -5,5 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="work_in_class" />
+    <orderEntry type="module" module-name="practice3_project" />
   </component>
 </module>

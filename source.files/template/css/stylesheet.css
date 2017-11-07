@@ -10,11 +10,23 @@ header {
     width: 100%;
     height: 80px;
     background: #31353d;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 main {
     min-height: 900px;
     width: 100%;
     background: snow;
+}
+.category {
+    height: 100%;
+    width: 300px;
+    background: #46b8da;
+}
+section {
+    height: 100%;
+
 }
 
 footer {
@@ -22,4 +34,48 @@ footer {
     width: 100%;
     height: 80px;
     background: #31353d;
+}
+
+/*=================
+HEADER style
+==================*/
+
+
+header .hat {
+    background: skyblue;
+    width: 20%;
+    height: 80%;
+}
+.hat {
+    flex-basis: 400px; /*будут стремиться получить 400px*/
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 700px;
+    background: #8c8c88;
+}
+.menu .navigation {
+    height: 100%;
+    width: 100px;
+    background: #8c8c88;
+}
+
+.wrap-logo {
+    height: 100%;
+    width: 130px;
+    background: #46b8da;
+
+}
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.user {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
