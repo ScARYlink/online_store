@@ -14,7 +14,7 @@
     <header>
         <div class="logo hat">
             <div class="wrap-logo">
-                <a href="../../views/news/index.php">
+                <a href="/index.php">
                     <img src="../../template/img/nosa.png" alt="Логотип NOSA store">
                 </a>
             </div>

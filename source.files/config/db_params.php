@@ -8,7 +8,7 @@
 
 return array(
     'host' => 'localhost',
-    'dbname' => 'mvc_site',
+    'dbname' => 'super_mag',
     'user' => 'root',
     'password' => '',
 );
