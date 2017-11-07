@@ -18,6 +18,9 @@ main {
     min-height: 900px;
     width: 100%;
     background: snow;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .category {
     height: 100%;
@@ -44,27 +47,19 @@ HEADER style
 header .hat {
     background: skyblue;
     width: 20%;
-    height: 80%;
+    height: 100%;
 }
 .hat {
     flex-basis: 400px; /*будут стремиться получить 400px*/
 }
-.menu {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-basis: 700px;
-    background: #8c8c88;
-}
-.menu .navigation {
-    height: 100%;
-    width: 100px;
-    background: #8c8c88;
-}
 
+
+.logo {
+
+}
 .wrap-logo {
     height: 100%;
-    width: 130px;
+    width: 150px;
     background: #46b8da;
 
 }
@@ -73,9 +68,36 @@ header .hat {
     width: 100%;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 700px;
+    background: #8c8c88;
+
+}
+.navigation {
+
+    width: 100px;
+    background: #8c8c88;
+    text-align: center;
+    margin: auto;
+    padding: 20px 5px;
+}
+.navigation a {
+
+}
 
 .user {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
+}
+.client-info {
+    background: #8c8c88;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 5px;
 }

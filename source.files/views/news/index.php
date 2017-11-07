@@ -20,16 +20,16 @@
             </div>
         </div>
         <div class="menu hat">
-            <div class="navigation">Главная</div>
-            <div class="navigation">Магазин</div>
-            <div class="navigation">Блог</div>
-            <div class="navigation">О магазине</div>
-            <div class="navigation">Контакты</div>
+            <div class="navigation"><a href="#">Главная</a></div>
+            <div class="navigation"><a href="#">Магазин</a></div>
+            <div class="navigation"><a href="#">Блог</a></div>
+            <div class="navigation"><a href="#">О магазине</a></div>
+            <div class="navigation"><a href="#">Контакты</a></div>
         </div>
         <div class="user hat">
-            <div class="client-info">Корзина</div>
-            <div class="client-info">Аккаунт</div>
-            <div class="client-info">Вход</div>
+            <div class="client-info"><a href="#">Корзина</a></div>
+            <div class="client-info"><a href="#">Аккаунт</a></div>
+            <div class="client-info"><a href="#">Вход</a></div>
         </div>
     </header>
 
