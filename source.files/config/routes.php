@@ -9,5 +9,6 @@
 return array(
     //'site/([a-z]+)/([0-9]+)' => 'site/view/$1/$2',
 
+    'product/([0-9]+)' => 'product/view/$1',
     '' =>'site/index',
 );
