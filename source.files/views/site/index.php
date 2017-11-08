@@ -2,11 +2,25 @@
 
 <main>
         <div class="category">
-            <a href="#">123</a>
-            <a href="#">234</a>
-            <a href="#">345</a>
+            <ul>
+                <li>
+                    <h4><a href="#">Категория</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#">Категория</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#">Категория</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#">Категория</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#">Категория</a></h4>
+                </li>
+            </ul>
         </div>
-        <div>
+        <div class="news">
             <section>
                 <div>
                     123
