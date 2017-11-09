@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8904f07d-6746-4d78-af4b-b459f5dab13d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/style1.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source.files/template/css/stylesheet.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/controllers/SiteController.php" afterPath="$PROJECT_DIR$/source.files/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/views/layouts/header.php" afterPath="$PROJECT_DIR$/source.files/views/layouts/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/views/site/index.php" afterPath="$PROJECT_DIR$/source.files/views/site/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/img/example.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/img/nosa.png" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -191,6 +187,13 @@
               <item name="online_store" type="b2602c69:ProjectViewProjectNode" />
               <item name="online_store" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="source.files" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="online_store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online_store" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source.files" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -268,18 +271,17 @@
       <workItem from="1510043208058" duration="16446000" />
       <workItem from="1510144620374" duration="3432000" />
       <workItem from="1510217715530" duration="9420000" />
-      <workItem from="1510251876229" duration="6706000" />
+      <workItem from="1510251876229" duration="6901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103010000" />
+    <option name="totallyTimeSpent" value="103205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="923" y="338" width="1003" height="731" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21314952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21314952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
