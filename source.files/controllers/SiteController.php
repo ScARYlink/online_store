@@ -19,7 +19,7 @@ class SiteController {
 
         //отображение продуктов
         $latestProducts = array();
-        $latestProducts = Product::getLatestProducts(3);
+        $latestProducts = Product::getLatestProducts(4);
 
         require_once(ROOT.'/views/site/index.php');
 

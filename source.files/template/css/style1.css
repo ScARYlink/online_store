@@ -6,13 +6,18 @@ body {
     padding: 0;
     font-family: Verdana, Geneva, sans-serif;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 }
-ul, li, a, section, div {
+
+ul, li, a, section, div, p, img, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     min-height: 80px;
@@ -20,24 +25,13 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
+
 main {
-    min-height: 900px;
-    width: 100%;
     background: snow;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.category {
-    height: 100%;
-    width: 300px;
-    background: #46b8da;
-}
-.news {
-    background: #5cb85c;
-
+    flex-direction: row;
+    justify-content: center;
 }
 
 footer {
@@ -50,17 +44,18 @@ footer {
 HEADER style
 ==================*/
 
-
 header .hat {
-    background: skyblue;
+}
+header a {
+    color: white;
 }
 
 .wrap-logo {
     height: 100%;
     width: 150px;
     background: #46b8da;
-
 }
+
 .logo img {
     height: 100%;
     width: 100%;
@@ -71,19 +66,13 @@ header .hat {
     justify-content: space-around;
     flex-wrap: wrap;
     flex-basis: 700px;
-    background: #8c8c88;
-
 }
-.navigation {
 
+.navigation {
     width: 100px;
-    background: #8c8c88;
     text-align: center;
     margin: auto;
-    padding: 20px 5px;
-}
-.navigation a {
-
+    padding: 15px 5px;
 }
 
 .user {
@@ -91,20 +80,43 @@ header .hat {
     justify-content: space-around;
     flex-wrap: wrap;
     flex-basis: 400px;
-
 }
+
 .client-info {
-    background: #8c8c88;
     width: 100px;
     text-align: center;
     margin: auto;
-    padding: 20px 5px;
+    padding: 15px 5px;
+}
+
+.head-item:hover {
+    background-color: #46b8da;
+    border-radius: 4px;
 }
 
 /*=================
 MAIN style
 ==================*/
 
-.news {
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.category {
+    background: #46b8da;
+}
+
+.news {
+    background: #5cb85c;
+
+}
+
+.latest-product {
+    padding: 5px;
+}
+
+.ul-category {
+    padding: 10px;
 }

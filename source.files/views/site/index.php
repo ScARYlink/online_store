@@ -2,7 +2,7 @@
 
     <main>
         <div class="category main-info">
-            <ul>
+            <ul class="ul-category" type="none">
                 <?php foreach ($categories as $categoryItem): ?>
                     <li>
                         <h4>
@@ -29,6 +29,5 @@
                 <?php endforeach; ?>
             </section>
         </div>
-
     </main>
 <?php include ROOT.'/views/layouts/footer.php'; ?>
