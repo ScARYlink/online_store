@@ -5,7 +5,9 @@
             </a>
         </div>
 
-        <div class="f-copyright f-block">Do not copy!</div>
+        <div class="f-copyright f-block">
+            <p>&copy;2017 NOSA. Do not copy! All rights reserved.</p>
+        </div>
     </footer>
 
 </body>
