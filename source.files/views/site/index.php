@@ -3,21 +3,15 @@
 <main>
         <div class="category">
             <ul>
-                <li>
-                    <h4><a href="#">Категория</a></h4>
-                </li>
-                <li>
-                    <h4><a href="#">Категория</a></h4>
-                </li>
-                <li>
-                    <h4><a href="#">Категория</a></h4>
-                </li>
-                <li>
-                    <h4><a href="#">Категория</a></h4>
-                </li>
-                <li>
-                    <h4><a href="#">Категория</a></h4>
-                </li>
+                <?php foreach ($categories as $categoryItem): ?>
+                    <li>
+                        <h4>
+                            <a href="/category/<?php echo $categoryItem['id']; ?>">
+                                <?php echo $categoryItem['name']; ?>
+                            </a>
+                        </h4>
+                    </li>
+                <?php endforeach; ?>
             </ul>
         </div>
         <div class="news">
