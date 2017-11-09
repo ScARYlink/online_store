@@ -100,8 +100,9 @@ MAIN style
 
 section {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+
 }
 
 .category {
@@ -114,7 +115,8 @@ section {
 }
 
 .latest-product {
-    padding: 5px;
+    padding: 10px 5px 10px;
+
 }
 
 .ul-category {
