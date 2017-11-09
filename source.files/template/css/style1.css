@@ -120,3 +120,18 @@ section {
 .ul-category {
     padding: 10px;
 }
+
+/*=================
+FOOTER style
+==================*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f-block {
+    color: white;
+    padding: 10px;
+
+}
