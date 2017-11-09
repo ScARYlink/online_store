@@ -35,9 +35,9 @@ main {
     width: 300px;
     background: #46b8da;
 }
-section {
-
+.news {
     background: #5cb85c;
+
 }
 
 footer {
@@ -99,4 +99,12 @@ header .hat {
     text-align: center;
     margin: auto;
     padding: 20px 5px;
+}
+
+/*=================
+MAIN style
+==================*/
+
+.news {
+
 }

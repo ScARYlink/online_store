@@ -1,7 +1,7 @@
 <?php include ROOT.'/views/layouts/header.php'; ?>
 
-<main>
-        <div class="category">
+    <main>
+        <div class="category main-info">
             <ul>
                 <?php foreach ($categories as $categoryItem): ?>
                     <li>
@@ -14,10 +14,10 @@
                 <?php endforeach; ?>
             </ul>
         </div>
-        <div class="news">
+        <div class="news main-info">
             <section>
                 <?php foreach ($latestProducts as $product): ?>
-                <div>
+                <div class="latest-product">
                     <img src="../../template/img/example.jpg" alt="">
                     <h2><?php echo $product['price']; ?></h2>
                     <p>
