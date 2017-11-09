@@ -16,9 +16,17 @@
         </div>
         <div class="news">
             <section>
+                <?php foreach ($latestProducts as $product): ?>
                 <div>
-                    123
+                    <img src="../../template/img/example.jpg" alt="">
+                    <h2><?php echo $product['price']; ?></h2>
+                    <p>
+                        <a href="<?php echo $product['id']; ?>">
+                            <?php echo $product['name']; ?>
+                        </a>
+                    </p>
                 </div>
+                <?php endforeach; ?>
             </section>
         </div>
 
