@@ -123,6 +123,12 @@ section {
     padding: 10px;
 }
 
+.m-new {
+    display: none;
+    position: absolute;
+    top: -50px;
+    width: 20%;
+}
 /*=================
 FOOTER style
 ==================*/

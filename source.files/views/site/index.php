@@ -25,6 +25,9 @@
                             <?php echo $product['name']; ?>
                         </a>
                     </p>
+                    <?php if($product['is_new']): ?>
+                        <img src="../../template/img/new.png" class="m-new" />
+                    <?php endif; ?>
                 </div>
                 <?php endforeach; ?>
             </section>
