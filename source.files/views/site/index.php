@@ -18,16 +18,20 @@
             <section>
                 <?php foreach ($latestProducts as $product): ?>
                 <div class="latest-product">
-                    <img src="../../template/img/example.jpg" alt="">
-                    <h2><?php echo $product['price']; ?></h2>
-                    <p>
-                        <a href="<?php echo $product['id']; ?>">
-                            <?php echo $product['name']; ?>
-                        </a>
-                    </p>
+                    <div>
+                        <img src="../../template/img/example.jpg" alt="">
+                        <h2><?php echo $product['price']; ?></h2>
+                        <p>
+                            <a href="<?php echo $product['id']; ?>">
+                                <?php echo $product['name']; ?>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="m-new">
                     <?php if($product['is_new']): ?>
-                        <img src="../../template/img/new.png" class="m-new" />
+                        <img src="../../template/img/new.png" alt="new" >
                     <?php endif; ?>
+                    </div>
                 </div>
                 <?php endforeach; ?>
             </section>

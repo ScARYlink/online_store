@@ -18,13 +18,18 @@
                 </a>
             </div>
         </div>
-        <div class="menu hat">
-            <div class="navigation head-item"><a href="#">Главная</a></div>
-            <div class="navigation head-item"><a href="#">Магазин</a></div>
-            <div class="navigation head-item"><a href="#">Блог</a></div>
-            <div class="navigation head-item"><a href="#">О магазине</a></div>
-            <div class="navigation head-item"><a href="#">Контакты</a></div>
-        </div>
+        <ul class="menu hat">
+            <li class="navigation head-item"><a href="/">Главная</a></li>
+            <li class="navigation head-item"><a href="#">Магазин</a>
+                <ul role="menu" class="h-sub-menu">
+                    <li><a href="/catalog/">Каталог товаров</a></li>
+                    <li><a href="/cart/">Корзина</a></li>
+                </ul>
+            </li>
+            <li class="navigation head-item"><a href="/blog/">Блог</a></li>
+            <li class="navigation head-item"><a href="/about/">О магазине</a></li>
+            <li class="navigation head-item"><a href="/contacts/">Контакты</a></li>
+        </ul>
         <div class="user hat">
             <div class="client-info head-item"><a href="#">Корзина</a></div>
             <div class="client-info head-item"><a href="#">Аккаунт</a></div>
