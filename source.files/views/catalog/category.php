@@ -17,7 +17,7 @@
     <div class="col-md-9">
         <div class="news main-info">
             <section class="row top-product">
-                <?php foreach ($latestProducts as $product): ?>
+                <?php foreach ($categoryProducts as $product): ?>
                     <div class="latest-product">
                         <div>
                             <a href="<?php echo $product['id']; ?>">

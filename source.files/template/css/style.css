@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/*HEADER*/
+.main-head {
+    background-color: lightgrey;
+}
+.category-head {
+    padding: auto;
+}
+.ul-head li {
+    padding: 7px;
+    list-style-type: none;
+}
+
+/*MAIN*/
+.top-product {
+    padding: 5px;
+}
+.latest-product {
+    padding: 5px;
+}
+.m-new {
+    position: absolute;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+}
+.size-img-new {
+    max-width: 25px;
+}
+/*FOOTER*/
