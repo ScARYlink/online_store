@@ -19,6 +19,11 @@
 }
 
 /*MAIN*/
+.active-category {
+    border-bottom: 2px solid deepskyblue;
+    color: black;
+    font-size: 2vh;
+}
 .top-product {
     padding: 5px;
 }

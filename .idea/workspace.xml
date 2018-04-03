@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8904f07d-6746-4d78-af4b-b459f5dab13d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/js/bootstrap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/js/bootstrap.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/js/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/js/bootstrap.bundle.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/js/bootstrap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/template/js/bootstrap.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source.files/views/catalog/category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/config/routes.php" afterPath="$PROJECT_DIR$/source.files/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/controllers/CatalogController.php" afterPath="$PROJECT_DIR$/source.files/controllers/CatalogController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/controllers/ProductController.php" afterPath="$PROJECT_DIR$/source.files/controllers/ProductController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/models/Product.php" afterPath="$PROJECT_DIR$/source.files/models/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/template/css/style1.css" afterPath="$PROJECT_DIR$/source.files/template/css/style1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/views/catalog/index.php" afterPath="$PROJECT_DIR$/source.files/views/catalog/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/views/layouts/footer.php" afterPath="$PROJECT_DIR$/source.files/views/layouts/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/views/layouts/header.php" afterPath="$PROJECT_DIR$/source.files/views/layouts/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/views/site/index.php" afterPath="$PROJECT_DIR$/source.files/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/template/css/style.css" afterPath="$PROJECT_DIR$/source.files/template/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source.files/views/catalog/category.php" afterPath="$PROJECT_DIR$/source.files/views/catalog/category.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source.files/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source.files/views/catalog/category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="97" lean-forward="true" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -101,8 +81,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source.files/template/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="714">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source.files/controllers/ProductController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -164,13 +154,13 @@
         <option value="$PROJECT_DIR$/source.files/views/layouts/footer.php" />
         <option value="$PROJECT_DIR$/source.files/template/css/style1.css" />
         <option value="$PROJECT_DIR$/source.files/views/layouts/header.php" />
-        <option value="$PROJECT_DIR$/source.files/template/css/style.css" />
         <option value="$PROJECT_DIR$/source.files/views/catalog/index.php" />
         <option value="$PROJECT_DIR$/source.files/config/routes.php" />
         <option value="$PROJECT_DIR$/source.files/controllers/CatalogController.php" />
         <option value="$PROJECT_DIR$/source.files/models/Product.php" />
-        <option value="$PROJECT_DIR$/source.files/views/catalog/category.php" />
         <option value="$PROJECT_DIR$/source.files/views/site/index.php" />
+        <option value="$PROJECT_DIR$/source.files/views/catalog/category.php" />
+        <option value="$PROJECT_DIR$/source.files/template/css/style.css" />
       </list>
     </option>
   </component>
@@ -190,7 +180,7 @@
       <path value="C:\xampp\htdocs" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="923" />
     <option name="y" value="338" />
     <option name="width" value="1003" />
@@ -336,15 +326,15 @@
       <workItem from="1510251876229" duration="9444000" />
       <workItem from="1510604009096" duration="3582000" />
       <workItem from="1520162708270" duration="122000" />
-      <workItem from="1522756389629" duration="9307000" />
+      <workItem from="1522756389629" duration="10518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118759000" />
+    <option name="totallyTimeSpent" value="119970000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08208955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -607,16 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source.files/models/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <marker date="1510225752664" expanded="true" signature="260:313" ph="SELECT id, n... category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source.files/views/layouts/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -625,34 +605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source.files/controllers/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source.files/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source.files/template/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source.files/views/catalog/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -687,6 +643,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source.files/models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <marker date="1510225752664" expanded="true" signature="260:313" ph="SELECT id, n... category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source.files/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source.files/views/catalog/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="97" lean-forward="true" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source.files/views/catalog/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -695,10 +677,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source.files/views/site/index.php">
+    <entry file="file://$PROJECT_DIR$/source.files/template/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="714">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source.files/controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>

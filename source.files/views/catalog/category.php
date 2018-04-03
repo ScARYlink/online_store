@@ -6,7 +6,9 @@
             <ul class="ul-category" type="none">
                 <?php foreach ($categories as $categoryItem): ?>
                     <li>
-                        <a href="/category/<?php echo $categoryItem['id']; ?>">
+                        <a href="/category/<?php echo $categoryItem['id']; ?>"
+                        class="<?php if($categoryId == $categoryItem['id']) echo 'active-category'; ?>"
+                        >
                             <?php echo $categoryItem['name']; ?>
                         </a>
                     </li>
